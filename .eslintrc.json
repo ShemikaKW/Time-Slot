@@ -1,0 +1,91 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "env": {
+    "jest": true,
+    "node": true,
+    "browser": true
+  },
+  "rules": {
+    "no-duplicate-case": "error",
+    "consistent-return": "off",
+    "no-console": "off",
+    "no-empty": "error",
+    "no-extra-semi": "error",
+    "jsx-a11y/label-has-for": "off",
+    "no-func-assign": "error",
+    "no-irregular-whitespace": "error",
+    "no-unreachable": "error",
+    "curly": "error",
+    "dot-notation": "error",
+    "eqeqeq": "error",
+    "no-empty-function": "error",
+    "no-multi-spaces": "error",
+    "no-unused-vars": "off",
+    "camelcase": "error",
+    "no-underscore-dangle": "off",
+    "prefer-destructuring": "off",
+    "no-param-reassign": "off",
+    "react/no-danger": "off",
+    "react/prefer-stateless-function": ["<enabled>",
+      {
+        "ignorePureComponents": "<ignorePureComponents>"
+      }
+    ],
+    "react/jsx-one-expression-per-line": [
+      "<enabled>",
+      {
+        "allow": "literal"
+      }
+    ],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "indent": [
+      "error",
+      2
+    ],
+    "react/destructuring-assignment": [
+      "<enabled>",
+      "always"
+    ],
+    "jsx-a11y/label-has-associated-control": [
+      2,
+      {
+        "labelComponents": [
+          "label"
+        ],
+        "labelAttributes": [
+          "htmlFor"
+        ],
+        "controlComponents": [
+          "input"
+        ]
+      }
+    ],
+    "react/prop-types": [
+      "<enabled>",
+      {
+        "ignore": "<ignore>, customValidators: <customValidator>"
+      }
+    ],
+    "linebreak-style": [
+      "error",
+      "windows"
+    ],
+    "quotes": [
+      "error",
+      "double"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ]
+  }
+}

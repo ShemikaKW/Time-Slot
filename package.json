@@ -1,0 +1,38 @@
+{
+  "name": "time-slot",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "eslint-config-airbnb": "^17.1.0",
+    "material-ui": "^0.20.2",
+    "node-sass": "^4.7.2",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^2.1.8",
+    "redux": "^3.7.2",
+    "redux-promise-middleware": "^5.0.0",
+    "redux-thunk": "^2.2.0",
+    "sass-loader": "^6.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "author": "Shemika",
+  "license": "ISC",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
